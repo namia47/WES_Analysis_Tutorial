@@ -1,0 +1,16 @@
+*.bam
+*.bai
+*.sam
+*.fastq
+*.fastq.gz
+*.vcf.gz
+*.idx
+*.tbi
+
+data/
+results/
+
+reference/
+
+__pycache__/
+.ipynb_checkpoints/
