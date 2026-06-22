@@ -16,21 +16,37 @@ germline Whole Exome Sequencing (WES) analysis using GATK.
 **Pipeline:**
 
 FASTQ
+
 ↓
+
 FastQC
+
 ↓
+
 BWA-MEM
+
 ↓
+
 Sort BAM
+
 ↓
+
 MarkDuplicates
+
 ↓
+
 BQSR
+
 ↓
+
 HaplotypeCaller
+
 ↓
+
 Hard Filtering
+
 ↓
+
 Filtered VCF
 
 ## Notebook Series
@@ -42,11 +58,15 @@ Filtered VCF
 
 ## Quick Start
 
-1. Click the **Open in Colab** button.
-2. Mount Google Drive.
-3. Upload or link your FASTQ files.
-4. Download the required reference files.
-5. Run the notebook cells sequentially.
+1. Click the [![Open In Colab](
+https://colab.research.google.com/assets/colab-badge.svg
+)](
+https://colab.research.google.com/github/namia47/WES_Analysis_Tutorial/blob/main/notebooks/WES_Variant_Calling_Workflow.ipynb
+)
+3. Mount Google Drive.
+4. Upload or link your FASTQ files.
+5. Download the required reference files.
+6. Run the notebook cells sequentially.
 
 **<span style="color:grean"> No local installation is required.</span>**
 
@@ -59,12 +79,3 @@ Filtered VCF
 | Variant Prioritization | 🚧 Planned |
 | ACMG Interpretation | 🚧 Planned |
 
-
-WES-Analysis-Tutorial/
-
-├── README.md
-├── .gitignore
-├── notebooks/
-│   └── 01_Germline_WES.ipynb
-│
-└── figures/
