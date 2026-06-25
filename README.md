@@ -17,12 +17,6 @@ germline Whole Exome Sequencing (WES) analysis using GATK.
 
 <img src="./figures/WES_Pipeline.png" width="800">
 
-## Notebook Series
-
-1. Germline Variant Calling
-2. Variant Annotation (planned)
-3. Variant Prioritization (planned)
-4. ACMG Interpretation (planned)
 
 ## Quick Start
 
