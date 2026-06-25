@@ -15,39 +15,7 @@ germline Whole Exome Sequencing (WES) analysis using GATK.
 
 **Pipeline:**
 
-FASTQ
-
-↓
-
-FastQC
-
-↓
-
-BWA-MEM
-
-↓
-
-Sort BAM
-
-↓
-
-MarkDuplicates
-
-↓
-
-BQSR
-
-↓
-
-HaplotypeCaller
-
-↓
-
-Hard Filtering
-
-↓
-
-Filtered VCF
+<img src="./figures/WES_Pipeline.png" width="800">
 
 ## Notebook Series
 
