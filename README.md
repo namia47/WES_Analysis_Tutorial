@@ -15,7 +15,7 @@ germline Whole Exome Sequencing (WES) analysis using GATK.
 
 **Pipeline:**
 
-<img src="./figures/WES_Pipeline.png" width="400">
+<img src="./figures/WES_Pipeline.png" width="900">
 
 
 ## Quick Start
